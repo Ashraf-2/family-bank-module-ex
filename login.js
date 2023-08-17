@@ -15,13 +15,15 @@ document.getElementById('submit-btn').addEventListener('click',function(){
     // console.log(email, pass);
 
     // step-4: verify email and password.
-    if(email === 'houmaukau@gmail.com' && pass === 'secretBoss')
+    if(email === 'haumaukau@gmail.com' && pass === 'secretBoss')
     {
-        console.log('valid user');
+        // console.log('valid user');
+        window.location.href = 'bank.html'
     }
     else
     {
-        console.log('invaild user');
+        // console.log('invaild user');
+        alert('invalid user');
     }
 
     // DANGER: do not varify email and password on client side.
