@@ -15,7 +15,7 @@ document.getElementById('submit-btn').addEventListener('click',function(){
     // console.log(email, pass);
 
     // step-4: verify email and password.
-    if(email === 'haumaukau@gmail.com' && pass === 'secretBoss')
+    if(email === 'nishat@gmail.com' && pass === 'nihsat')
     {
         // console.log('valid user');
         window.location.href = 'bank.html'
